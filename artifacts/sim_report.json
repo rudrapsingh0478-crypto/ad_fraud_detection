@@ -1,0 +1,19 @@
+{
+  "clicks_replayed": 50000,
+  "latency_ms": {
+    "p50": 0.2606,
+    "p95": 0.662,
+    "p99": 1.1077030000000005,
+    "max": 37.753
+  },
+  "throughput_clicks_per_sec": 3152.7189612695497,
+  "quality_on_replayed_slice": {
+    "n": 50000,
+    "genuine_rate": 0.00186,
+    "pr_auc": 0.41743197257346604,
+    "roc_auc": 0.9542744127733498,
+    "flagged_share_of_clicks": 0.81326,
+    "genuine_kept_recall": 0.9354838709677419,
+    "flagged_non_download_precision": 0.9998524457123183
+  }
+}

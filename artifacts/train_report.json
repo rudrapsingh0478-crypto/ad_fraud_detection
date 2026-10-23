@@ -1,0 +1,39 @@
+{
+  "rows": 1000000,
+  "split": [
+    700000,
+    850000
+  ],
+  "results": {
+    "GBDT (lightgbm)": {
+      "n": 150000,
+      "genuine_rate": 0.0016466666666666667,
+      "pr_auc": 0.4340112505026407,
+      "roc_auc": 0.9487412484433545,
+      "flagged_share_of_clicks": 0.18503333333333333,
+      "genuine_kept_recall": 0.9878542510121457,
+      "flagged_non_download_precision": 0.9998919113673213,
+      "threshold": 7.339071905321439e-05
+    },
+    "Logistic regression": {
+      "n": 150000,
+      "genuine_rate": 0.0016466666666666667,
+      "pr_auc": 0.016965563649500158,
+      "roc_auc": 0.8729177284127594,
+      "flagged_share_of_clicks": 0.2549533333333333,
+      "genuine_kept_recall": 0.9757085020242915,
+      "flagged_non_download_precision": 0.9998431085427398,
+      "threshold": 0.00012901413720101118
+    },
+    "Heuristic rule (IP clicks/10min)": {
+      "n": 150000,
+      "genuine_rate": 0.0016466666666666667,
+      "pr_auc": 0.010640162539964427,
+      "roc_auc": 0.7767214034035155,
+      "flagged_share_of_clicks": 0.0,
+      "genuine_kept_recall": 1.0,
+      "flagged_non_download_precision": null,
+      "threshold": 0.004975124262273312
+    }
+  }
+}
